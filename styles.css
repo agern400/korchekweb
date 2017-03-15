@@ -231,49 +231,11 @@ section .txt-lg{
   padding: 30px 30px 0px;
 }
 
-#services .service-lnk {
-  font-size: 16px;
-  color: #fff;
-  text-decoration: none;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-#services .title{
-  margin-bottom: 5px;
-}
-
-#services .fa{
-  font-size: 40px;
-  margin-bottom: 20px;
-  color: #337ab7;
-}
-
-.service-img{
-  position: relative;
-}
-
-.service-img>img{
-  border-radius: 5px;
-  width: 100%;
-}
-
-.service-img .bg-overlay-btm{
-  border-radius: 5px 0 0 5px;
-}
-
-.service-wrapper{
-  border-radius: 0 5px 5px 0;
-  background-color: #50514F;
-  padding: 15px;
-  color: #fff;
-  height: 630px;
-}
 .service{
   border-radius: 5px;
   overflow: hidden;
   border: 1px solid #e6e6e6;
-  height: 409px;
+  height: 455px;
 }
 
 .service .img-ctr{
@@ -285,9 +247,9 @@ section .txt-lg{
   padding: 15px;
 }
 
-.service .content-ctr .txt-ctr>p{
+.service .content-ctr>p{
   color: #4c4e4e;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .service .content-ctr .txt-ctr .more-indic{
   padding: 5px 12px;
@@ -363,6 +325,20 @@ section .txt-lg{
 
 p {
     line-height: 25px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .divider {

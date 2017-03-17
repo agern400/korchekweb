@@ -260,7 +260,9 @@ section#testimonials .title{
 
 .service .img-ctr{
   height: 265px;
-  background-image: url('http://placehold.it/358x265');
+  background-image: url('stapler.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .service .content-ctr{
@@ -283,6 +285,7 @@ section#testimonials .title{
 .service .content-ctr .txt-ctr>h3{
   padding-top: 5px;
   color: #f54c53;
+  font-weight: 700;
 }
 
 .service:hover{
@@ -292,7 +295,6 @@ section#testimonials .title{
 .service:hover .img-ctr{
   height: 0;
 }
-
 /**
         END Sections
 **/
@@ -374,8 +376,8 @@ p {
 }
 
 .plain-list{
-  margin: 25px 0 0 0;
-  padding: 0;
+  margin: 25px 0 40px 0;
+  padding: 10px 15px 0 15px;
   list-style: none;
 }
 
@@ -383,16 +385,31 @@ p {
   margin-bottom: 5px;
 }
 
-.plain-list>li>a {
-    color: #909296;
-    font-size: 16px;
+.plain-list>li>i{
+  font-size: 24px;
+  padding-top: 0px;
+  margin-top: 0px;
+  color: #f54c53;
+  margin-right: 10px;
+  float: left;
 }
+
+.plain-list>li>a {
+  color: #909296;
+  font-size: 16px;
+}
+
 .plain-list>li>a>i {
-    color: #f25f5c;
+  color: #f25f5c;
 }
 
 .plain-list>li>a:hover {
-    color: #40434a;
+  color: #40434a;
+}
+
+.plain-list>li>span.product{
+  font-weight: 600;
+  font-size: 16px;
 }
 
 a:hover, a:focus, button:hover, button:focus {

@@ -614,7 +614,7 @@ footer{
   width: 100%;
   height: 100%;
   z-index: 0;
-  background: url(color-laptop.png) no-repeat bottom right -300px/60%, -webkit-linear-gradient(top, #ff3110 , #57585a 125%);
+      background: url(color-laptop.png) no-repeat bottom right -300px/60%, -webkit-linear-gradient(top, #c51b00 , #370a0a 125%);
   /**background: url('wireMac.png') no-repeat center bottom, -webkit-linear-gradient(to left, #cb2d3e , #ef473a);;
   /**
   background: url(../../_media/images/bg-hero.png) no-repeat center bottom, -webkit-linear-gradient(top, #4AB1E4 0%,#006EB6 70%);

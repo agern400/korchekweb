@@ -97,6 +97,7 @@ html, body {
 
 .scroll-nav{
   z-index: 100;
+  padding: 15px;
 }
 
 .scroll-nav .navbar-default{
@@ -109,13 +110,6 @@ html, body {
   font-size: 12px;
   font-weight: bold;
   color: #002C5F;
-}
-
-
-#scroller-top{
-  position: absolute;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.9);
 }
 
 .navbar-brand {
@@ -133,13 +127,6 @@ html, body {
   color: #d2492a!important;
 }
 
-.scroller-top .navbar-default .nav-link{
-  font-size: 17px;
-  font-weight: bold;
-  margin: 13px 0 0 0;
-  outline: none;
-  padding: 3px 12px;
-}
 
 
 .scroll-nav  .navbar-default .nav-link:hover{
@@ -164,7 +151,7 @@ html, body {
   font-weight: BOLD;
 }
 
-.scroller-sticky .nav-link{
+.scroll-nav .nav-link{
   padding: 15px;
 }
 
@@ -219,6 +206,7 @@ section .txt-sm{
 section .hdr-txt-lg{
   font-size: 4.5rem;
   margin-top: 50px;
+  color: #d9534f;
 }
 
 section .hdr-txt-md{
@@ -734,10 +722,30 @@ footer{
   width: 83.33%;
   float: left;
 }
+/**
+        END landing
+**/
+
+
 
 
 /**
-        END landing
+        START css-slider
+**/
+  .css-slider{
+    min-height: calc(100% - 300px);
+  }
+
+  .css-slider>.inner{
+
+  }
+
+  .css-slider>.nav{
+    
+  }
+
+/**
+        END css-slider
 **/
 
 
@@ -766,35 +774,18 @@ footer{
     box-shadow: 4px 4px 30px rgba(0,0,0,0.2);
   }
 
-  .scroller-top{
-    padding: 15px;
-  }
-
-  .scroller-top .navbar-right{
-    margin-right: 30px;
-  }
-
-  .scroller-top .nav-link{
-    padding: 30px;
-    font-size: 18px;
-  }
-
   .scroller-top .navbar-brand {
     font-size: 8rem;
     padding: 30px;
     margin-top: 10px;
   }
 
-  .scroller-top .nav-link{
-    padding: 25px;
-    font-size: 18px;
-  }
-
   .scroller-sticky .navbar-default{
 
   }
 
-  .scroller-sticky .nav-link{
+  .scroll-nav .nav-link{
+    font-weight: 700;
     padding: 15px;
     font-size: 2rem;
   }
